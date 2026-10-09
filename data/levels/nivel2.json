@@ -1,0 +1,20 @@
+{
+  "id": "nivel2",
+  "title": "A Embaixadora",
+  "era": "1622",
+  "place": "Caminho do Kwanza e Luanda",
+  "theme": "luanda",
+  "summary": "O irmão envia Njinga a Luanda para negociar a paz com o governador.",
+  "objective": "Atravessa o caminho e conclui a audiência no palácio.",
+  "spawn": [28, 210],
+  "world_width": 2300,
+  "goal_x": 2130,
+  "ability": "Diplomacia",
+  "platforms": [[0,235,2300,35],[220,185,110,12],[470,150,110,12],[690,200,130,12],[920,165,120,12],[1160,125,130,12],[1400,185,130,12],[1630,145,130,12],[1840,190,150,12]],
+  "collectibles": [{"type":"nzimbu","x":170,"y":205},{"type":"card","x":520,"y":120,"title":"A cadeira","text":"Na audiência, não lhe deram assento. Uma acompanhante serviu-lhe de banco para falar de igual para igual. É um relato de época discutido.","certainty":"R"},{"type":"nzimbu","x":760,"y":170},{"type":"card","x":1120,"y":95,"title":"Ana de Sousa","text":"Em Luanda, Njinga foi baptizada com o nome Ana de Sousa.","certainty":"D"},{"type":"nzimbu","x":1520,"y":155},{"type":"card","x":1930,"y":160,"title":"Um tratado quebrado","text":"O tratado foi acordado, mas os portugueses quebraram-no pouco depois.","certainty":"D"}],
+  "enemies": [{"type":"guarda","x":630,"y":215},{"type":"carroça","x":1040,"y":215},{"type":"guarda","x":1560,"y":215}],
+  "hazards": [{"type":"carga","x":820,"y":218,"w":24,"h":17}],
+  "checkpoints": [{"x":1180,"y":218}],
+  "diplomacy": "luanda1622",
+  "finale": "A audiência termina com uma proposta de paz. A inteligência de Njinga abre a próxima etapa, mesmo quando o acordo não é cumprido."
+}

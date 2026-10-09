@@ -1,0 +1,21 @@
+{
+  "id": "nivel6",
+  "title": "A Paz da Rainha",
+  "era": "1654–1663",
+  "place": "Santa Maria de Matamba",
+  "theme": "paz",
+  "summary": "Com mais de 70 anos, Njinga troca a guerra pela negociação e recupera a irmã Kambu.",
+  "objective": "Recolhe materiais, recebe Kambu e fecha o tratado de paz.",
+  "spawn": [28, 210],
+  "world_width": 2450,
+  "goal_x": 2290,
+  "ability": "Paz e diplomacia",
+  "platforms": [[0,235,2450,35],[170,185,120,12],[400,150,110,12],[620,205,130,12],[860,165,120,12],[1080,125,130,12],[1300,185,120,12],[1530,145,130,12],[1770,195,120,12],[1980,155,130,12]],
+  "collectibles": [{"type":"material","x":250,"y":205},{"type":"nzimbu","x":460,"y":120},{"type":"material","x":720,"y":175},{"type":"card","x":1000,"y":95,"title":"O tratado","text":"As negociações de paz abriram em 1654. O tratado foi acordado em 1656 e ratificado em 1657.","certainty":"D"},{"type":"material","x":1220,"y":105},{"type":"card","x":1450,"y":115,"title":"Os capuchinhos","text":"Entre 1657 e 1663, missionários capuchinhos italianos trabalharam nas terras de Njinga.","certainty":"D"},{"type":"material","x":1760,"y":165},{"type":"card","x":2040,"y":115,"title":"O legado","text":"Njinga morreu em paz na Matamba, em 17 de Dezembro de 1663. Kambu sucedeu-lhe.","certainty":"D"}],
+  "enemies": [{"type":"saqueador","x":560,"y":215},{"type":"saqueador","x":1580,"y":215}],
+  "hazards": [{"type":"andaime","x":900,"y":218,"w":34,"h":17}],
+  "checkpoints": [{"x":1310,"y":218}],
+  "diplomacy": "tratado1656",
+  "finale": "Kambu regressa. Njinga morre em paz, com cerca de 80 anos, e a memória da rainha continua em Angola.",
+  "ending": true
+}

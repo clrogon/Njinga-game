@@ -1,0 +1,19 @@
+{
+  "id": "nivel4",
+  "title": "O Kilombo e a Matamba",
+  "era": "1631–1635",
+  "place": "Savana, floresta e capital da Matamba",
+  "theme": "matamba",
+  "summary": "No exílio, Njinga reorganiza o exército num kilombo e conquista a Matamba.",
+  "objective": "Reúne cinco aliados e chega à capital da Matamba.",
+  "spawn": [28, 210],
+  "world_width": 2600,
+  "goal_x": 2410,
+  "ability": "Arco e aljavas",
+  "platforms": [[0,235,2600,35],[170,185,120,12],[390,150,110,12],[600,205,140,12],[850,165,120,12],[1060,125,130,12],[1280,185,130,12],[1510,145,120,12],[1740,200,130,12],[1970,155,130,12],[2200,190,150,12]],
+  "collectibles": [{"type":"ally","x":250,"y":205},{"type":"nzimbu","x":470,"y":120},{"type":"ally","x":720,"y":175},{"type":"card","x":980,"y":95,"title":"O kilombo","text":"Kilombo era um acampamento de guerra onde Njinga reorganizou o exército.","certainty":"D"},{"type":"ally","x":1180,"y":105},{"type":"quiver","x":1400,"y":165},{"type":"card","x":1640,"y":115,"title":"A Matamba","text":"Entre 1631 e 1635, Njinga conquistou o reino da Matamba e fez dele a sua base.","certainty":"D"},{"type":"ally","x":1840,"y":170},{"type":"ally","x":2130,"y":165},{"type":"card","x":2290,"y":150,"title":"Dois reinos","text":"Njinga tornou-se rainha do Ndongo e da Matamba.","certainty":"D"}],
+  "enemies": [{"type":"sentinela","x":520,"y":215},{"type":"arqueiro","x":930,"y":215},{"type":"sentinela","x":1460,"y":215},{"type":"campeao","x":2190,"y":215,"boss":true}],
+  "hazards": [{"type":"estacas","x":780,"y":226,"w":30,"h":9},{"type":"estacas","x":1680,"y":226,"w":30,"h":9}],
+  "checkpoints": [{"x":1280,"y":218}],
+  "finale": "O campeão rende-se e a corte da Matamba aceita a nova rainha. A conquista é apresentada sem mortes em cena."
+}

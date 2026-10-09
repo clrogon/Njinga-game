@@ -1,0 +1,19 @@
+{
+  "id": "nivel1",
+  "title": "A Filha do Ngola",
+  "era": "c. 1592",
+  "place": "Kabasa, capital do Ndongo",
+  "theme": "kabasa",
+  "summary": "Na infância, Njinga acompanha o Ngola nos assuntos de governo e de guerra.",
+  "objective": "Completa o percurso de treino e chega ao Ngola.",
+  "spawn": [28, 210],
+  "world_width": 2200,
+  "goal_x": 2040,
+  "ability": "Treino de plataformas",
+  "platforms": [[0,235,2200,35],[180,195,100,12],[360,160,90,12],[560,205,120,12],[760,175,100,12],[980,145,120,12],[1210,190,120,12],[1420,155,120,12],[1650,200,150,12],[1870,170,120,12]],
+  "collectibles": [{"type":"nzimbu","x":145,"y":205},{"type":"nzimbu","x":405,"y":130},{"type":"nzimbu","x":610,"y":175},{"type":"card","x":720,"y":215,"title":"O reino do Ndongo","text":"Njinga nasceu em Kabasa, na família real ambundu do Ndongo. As fontes dão 1581, 1582 ou 1583.","certainty":"D"},{"type":"card","x":1160,"y":205,"title":"Ngola e Angola","text":"Ngola era o título do rei do Ndongo e está na origem do nome Angola.","certainty":"D"},{"type":"card","x":1760,"y":215,"title":"Luanda, 1575","text":"Os portugueses chegaram a Luanda em 1575.","certainty":"D"}],
+  "enemies": [{"type":"boneco","x":520,"y":215},{"type":"escorpiao","x":880,"y":220},{"type":"cobra","x":1510,"y":220}],
+  "hazards": [{"type":"cabaça","x":1320,"y":218,"w":20,"h":17}],
+  "checkpoints": [{"x":1080,"y":218}],
+  "finale": "O Ngola entrega a Njinga um machado cerimonial. Em 1617, o Ngola morre e o irmão sobe ao trono."
+}

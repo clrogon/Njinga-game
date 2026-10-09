@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "title": "Njinga: Rainha do Ndongo e da Matamba",
+  "description": "Uma aventura histórica em seis momentos: guia Njinga por Kabasa, Luanda, Kindonga e Matamba, combinando plataformas, diplomacia, furtividade e cartões de Crónica.",
+  "defaultCaptions": {
+    "x": "Joga Njinga: Rainha do Ndongo e da Matamba no navegador.",
+    "facebook": "Uma aventura histórica em seis momentos, com plataformas, diplomacia e Crónica.",
+    "reddit": "Njinga: Rainha do Ndongo e da Matamba — MVP educativo jogável no navegador.",
+    "discord": "Uma aventura histórica de Njinga para jogar no navegador."
+  },
+  "assets": {
+    "favicon": "assets/share/favicon.png"
+  }
+}
