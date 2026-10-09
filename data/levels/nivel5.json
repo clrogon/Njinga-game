@@ -1,0 +1,20 @@
+{
+  "id": "nivel5",
+  "title": "A Aliança e Kombi",
+  "era": "1641–1648",
+  "place": "Tenda de negociação e Masangano",
+  "theme": "komb i",
+  "summary": "Njinga alia-se aos holandeses e ao Reino do Kongo, vence em Kombi e cerca Masangano.",
+  "objective": "Fecha a aliança e silencia as três plataformas de canhão.",
+  "spawn": [28, 210],
+  "world_width": 2700,
+  "goal_x": 2550,
+  "ability": "Aliança e acção combinada",
+  "platforms": [[0,235,2700,35],[190,185,110,12],[420,150,120,12],[670,200,130,12],[910,160,120,12],[1150,120,140,12],[1400,185,130,12],[1630,145,120,12],[1850,195,140,12],[2090,155,130,12],[2320,190,150,12]],
+  "collectibles": [{"type":"card","x":480,"y":120,"title":"Uma aliança","text":"Em 1641, Njinga enviou embaixadores aos holandeses, que tinham tomado Luanda. O Reino do Kongo juntou-se à aliança.","certainty":"D"},{"type":"nzimbu","x":740,"y":170},{"type":"card","x":1100,"y":90,"title":"Kombi","text":"Em 1647, Njinga venceu na Batalha de Kombi e cercou a fortaleza portuguesa de Masangano.","certainty":"D"},{"type":"nzimbu","x":1480,"y":155},{"type":"card","x":1960,"y":165,"title":"A mudança de 1648","text":"Salvador de Sá reconquistou Luanda em 1648. Os holandeses retiraram-se e Njinga regressou à Matamba.","certainty":"D"},{"type":"captive","x":2200,"y":215}],
+  "enemies": [{"type":"mosqueteiro","x":820,"y":215},{"type":"mosqueteiro","x":1320,"y":215},{"type":"canhao","x":1780,"y":205,"boss":true},{"type":"canhao","x":2040,"y":165,"boss":true},{"type":"canhao","x":2390,"y":200,"boss":true}],
+  "hazards": [{"type":"bala","x":1000,"y":215,"w":24,"h":15},{"type":"barricada","x":1540,"y":220,"w":32,"h":15}],
+  "checkpoints": [{"x":1450,"y":218}],
+  "diplomacy": "holandeses1641",
+  "finale": "As velas de 1648 aparecem no horizonte. A retirada para leste é uma derrota estratégica, não o fim da resistência."
+}

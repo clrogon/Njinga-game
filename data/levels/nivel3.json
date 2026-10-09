@@ -1,0 +1,20 @@
+{
+  "id": "nivel3",
+  "title": "As Ilhas do Kwanza",
+  "era": "1624–1629",
+  "place": "Kindonga, no rio Kwanza",
+  "theme": "kwanza",
+  "summary": "Rainha do Ndongo, Njinga resiste a partir das ilhas e acolhe cativos fugidos.",
+  "objective": "Atravessa as ilhas, liberta cativos e escapa pela escarpa.",
+  "spawn": [28, 210],
+  "world_width": 2500,
+  "goal_x": 2310,
+  "ability": "Furtividade e machado",
+  "platforms": [[0,235,2500,35],[180,185,100,12],[390,150,120,12],[640,198,100,12],[840,155,130,12],[1080,185,120,12],[1290,135,130,12],[1530,190,120,12],[1760,150,120,12],[1980,205,150,12],[2200,170,130,12]],
+  "collectibles": [{"type":"nzimbu","x":140,"y":205},{"type":"card","x":450,"y":120,"title":"Uma rainha em 1624","text":"Ngola Mbandi morreu em 1624. Njinga assumiu o poder no Ndongo.","certainty":"D"},{"type":"captive","x":760,"y":215},{"type":"nzimbu","x":900,"y":125},{"type":"card","x":1260,"y":105,"title":"Kindonga","text":"Entre 1626 e 1629, Njinga resistiu a partir das ilhas de Kindonga, no rio Kwanza.","certainty":"D"},{"type":"captive","x":1600,"y":215},{"type":"card","x":2070,"y":175,"title":"Kambu e Funji","text":"Depois da derrota de 1629, as irmãs Kambu e Funji foram capturadas.","certainty":"R"}],
+  "enemies": [{"type":"patrulha","x":560,"y":215,"vision":95},{"type":"patrulha","x":1180,"y":215,"vision":110},{"type":"crocodilo","x":1450,"y":220},{"type":"hipopotamo","x":1880,"y":215}],
+  "hazards": [{"type":"corrente","x":1010,"y":230,"w":40,"h":7}],
+  "checkpoints": [{"x":1320,"y":218}],
+  "finale": "Njinga desce a escarpa com poucos seguidores. É uma fuga perigosa, contada como relato de época discutido.",
+  "escape": true
+}
