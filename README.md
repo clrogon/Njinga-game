@@ -24,10 +24,12 @@ scripts/njinga_player.gd  Movimento e sinais de acções do jogador
 data/levels/              Geometria, objectivos e cartões de cada nível (nivel1–6)
 data/diplomacy/           Falas e perfis das cenas de diplomacia
 assets/                   Arte, tipografia e áudio
-docs/                     Documentação de implementação (produção, multijogador)
+docs/                     Arquitectura, ADRs e documentação de implementação
 test/                     Testes do jogo real (GDScript) e das ferramentas de export (Node)
 web-build/                Build Web/WASM exportada, pronta a publicar
 ```
+
+Ver [Documentação](#documentação) abaixo para o resto dos ficheiros de topo (`CLAUDE.md`, `CONTRIBUTING.md`, etc.).
 
 O projecto partiu de um starter Godot de plataformas (género "cat platformer") disponibilizado pelo ambiente Manus. O código e os testes exclusivos desse starter que o MVP da Njinga não usa (menus, HUD, áudio, i18n EN/zh-CN e os testes que os cobriam) foram removidos do repositório — a cena principal (`scenes/game.tscn`) carrega apenas `scripts/njinga_game.gd`/`scripts/njinga_player.gd`, sem autoloads. Os **ficheiros de arte/áudio/fontes** do starter (`assets/template/cat/*`, `assets/template/audio/*`, as fontes CJK) permanecem no repositório por decisão documentada em [`CREDITS.md`](CREDITS.md), mas não são usados pelo jogo — o MVP desenha tudo via `_draw()` procedural. `data/i18n/pt-AO.json` também não está ligado a nenhum código (o texto de cada nível vive directamente nos ficheiros de `data/levels/`); mantém-se como referência textual, não como fonte de dados activa.
 
@@ -52,6 +54,22 @@ pnpm run test:checks      # testes Node das ferramentas de verificação de expo
 ```
 
 Alguns scripts de `package.json` (`dev`, `build`, `preview:build`, `doctor`, `inspect`, `assets:report`) invocam ferramentas internas do ambiente Manus (`scripts/manus/runtime-command.cjs`) e não correm fora dessa plataforma.
+
+Antes de contribuir, ver [`CONTRIBUTING.md`](CONTRIBUTING.md) e o [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+
+## Documentação
+
+| Ficheiro | Conteúdo |
+|---|---|
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Máquina de estados, modelo de dados, sistema de gravação, build Web |
+| [`docs/adr/`](docs/adr/README.md) | Registo de decisões arquitecturais (ADRs) |
+| [`CLAUDE.md`](CLAUDE.md) | Orientação para agentes de IA a trabalhar neste repositório |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Como configurar o ambiente e submeter alterações |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Código de conduta (Contributor Covenant) |
+| [`SECURITY.md`](SECURITY.md) | Superfície de ataque e como reportar vulnerabilidades |
+| [`CHANGELOG.md`](CHANGELOG.md) | Histórico de alterações |
+| [`CREDITS.md`](CREDITS.md) | Fontes históricas e proveniência da arte |
+| [`plan.md`](plan.md) | Plano de implementação original do MVP |
 
 ## Licença
 
