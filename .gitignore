@@ -1,0 +1,17 @@
+# Godot 4
+.godot/
+*.translation
+mono_crash.*.json
+
+# Local export output (regenerate with `pnpm run export`)
+/dist/
+/test-output/
+/game-captures/
+
+# Node
+node_modules/
+
+# OS / editor
+.DS_Store
+*.log
+*.tmp
